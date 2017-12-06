@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+body {
+  font-family: Arial;
+  background: #dedede; }
+  body #wrapper {
+    width: 100%; }
+  body header {
+    height: 700px;
+    background: #5ca1f1; }
+    body header nav ul {
+      list-style: none;
+      padding-top: 30px;
+      margin-left: 75%;
+      margin-bottom: 20px; }
+    body header nav li {
+      display: inline-block;
+      margin-left: 25px; }
+    body header nav a {
+      text-decoration: none;
+      color: #fff; }
+    body header .header-elements h1 {
+      font-size: 55px;
+      color: #fff;
+      width: 50%;
+      float: left;
+      margin-left: 5%;
+      margin-top: 150px; }
+    body header .header-elements img {
+      width: 350px;
+      float: left;
+      margin-left: 5%;
+      margin-top: 100px; }
+  body .section-one {
+    background: #dedede;
+    height: 300px; }
+    body .section-one .section-one-left {
+      width: 50%;
+      float: left;
+      text-align: center; }
+      body .section-one .section-one-left h2 {
+        font-size: 55px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 60px;
+        margin-bottom: 30px; }
+      body .section-one .section-one-left p {
+        font-weight: bold;
+        color: #333; }
+    body .section-one .section-one-right {
+      width: 50%;
+      float: left;
+      text-align: center; }
+      body .section-one .section-one-right h2 {
+        font-size: 55px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 60px;
+        margin-bottom: 30px; }
+      body .section-one .section-one-right p {
+        font-weight: bold;
+        color: #333; }
+  body .section-two {
+    background: #f5f5f5;
+    height: 600px; }
+    body .section-two .section-two-left {
+      width: 40%;
+      float: left;
+      margin-left: 5%;
+      margin-top: 230px; }
+      body .section-two .section-two-left h3 {
+        color: #333;
+        margin-bottom: 20px; }
+      body .section-two .section-two-left p {
+        font-weight: 600;
+        color: #848484; }
+    body .section-two .section-two-right {
+      width: 50%;
+      float: left; }
+      body .section-two .section-two-right img {
+        margin-top: 100px;
+        margin-left: 30px; }
+  body footer {
+    width: 100%; }
+    body footer .footer-box {
+      width: 200px;
+      margin: 0 auto;
+      padding-left: 100px;
+      color: #fff;
+      height: 50px;
+      margin-top: 100px; }
+      body footer .footer-box a {
+        display: inline;
+        text-decoration: none;
+        color: #fff; }
+
+@media screen and (max-width: 960px) {
+  * {
+    margin: 0;
+    padding: 0; }
+
+  body {
+    font-family: Arial;
+    background: #dedede; }
+    body #wrapper {
+      width: 100%; }
+    body header {
+      height: 700px;
+      background: #5ca1f1; }
+      body header nav ul {
+        list-style: none;
+        padding-top: 30px;
+        margin-left: 5%;
+        margin-bottom: 20px;
+        width: 100%; }
+      body header nav li {
+        display: inline-block;
+        margin-left: 20%; }
+      body header nav a {
+        text-decoration: none;
+        color: #fff; }
+      body header .header-elements {
+        text-align: center; }
+        body header .header-elements h1 {
+          font-size: 30px;
+          color: #fff;
+          width: 100%;
+          float: none;
+          margin-left: 0%;
+          margin-top: 150px; }
+        body header .header-elements img {
+          width: 280px;
+          float: none;
+          margin-left: 0%;
+          margin-top: 60px; }
+    body .section-one {
+      background: #dedede;
+      height: auto; }
+      body .section-one .section-one-left {
+        width: 100%;
+        float: none;
+        text-align: center; }
+        body .section-one .section-one-left h2 {
+          font-size: 55px;
+          font-weight: bold;
+          color: #333;
+          margin-top: 60px;
+          margin-bottom: 30px; }
+        body .section-one .section-one-left p {
+          font-weight: bold;
+          color: #333; }
+      body .section-one .section-one-right {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-bottom: 70px; }
+        body .section-one .section-one-right h2 {
+          font-size: 55px;
+          font-weight: bold;
+          color: #333;
+          margin-top: 60px;
+          margin-bottom: 30px; }
+        body .section-one .section-one-right p {
+          font-weight: bold;
+          color: #333; }
+    body .section-two {
+      background: #f5f5f5;
+      height: 780px; }
+      body .section-two .section-two-left {
+        width: 100%;
+        float: none;
+        margin-left: 0%;
+        margin-top: 0px;
+        text-align: center; }
+        body .section-two .section-two-left h3 {
+          color: #333;
+          padding-top: 100px; }
+        body .section-two .section-two-left p {
+          font-weight: 600;
+          color: #848484;
+          padding: 0 30px; }
+      body .section-two .section-two-right {
+        width: 100%;
+        float: none; }
+        body .section-two .section-two-right img {
+          width: 80%;
+          margin-top: 100px;
+          padding: 0 35px; } }
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0; }
+
+  body {
+    font-family: Arial;
+    background: #dedede; }
+    body #wrapper {
+      width: 100%; }
+    body header {
+      height: 700px;
+      background: #5ca1f1; }
+      body header nav ul {
+        list-style: none;
+        padding-top: 30px;
+        margin-left: -5%;
+        margin-bottom: 20px;
+        width: 100%; }
+      body header nav li {
+        display: inline-block;
+        margin-left: 20%; }
+      body header nav a {
+        text-decoration: none;
+        color: #fff; }
+      body header .header-elements {
+        text-align: center; }
+        body header .header-elements h1 {
+          font-size: 30px;
+          color: #fff;
+          width: 100%;
+          float: none;
+          margin-left: 0%;
+          margin-top: 100px; }
+        body header .header-elements img {
+          width: 60%;
+          float: none;
+          margin-left: 0%;
+          margin-top: 60px; }
+    body .section-one {
+      background: #dedede;
+      height: auto; }
+      body .section-one .section-one-left {
+        width: 100%;
+        float: none;
+        text-align: center; }
+        body .section-one .section-one-left h2 {
+          font-size: 55px;
+          font-weight: bold;
+          color: #333;
+          margin-top: 60px;
+          margin-bottom: 30px;
+          padding: 0 5px; }
+        body .section-one .section-one-left p {
+          font-weight: bold;
+          color: #333;
+          padding: 0 20px; }
+      body .section-one .section-one-right {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-bottom: 70px; }
+        body .section-one .section-one-right h2 {
+          font-size: 55px;
+          font-weight: bold;
+          color: #333;
+          margin-top: 60px;
+          margin-bottom: 30px;
+          padding: 0 5px; }
+        body .section-one .section-one-right p {
+          font-weight: bold;
+          color: #333;
+          padding: 0 20px; }
+    body .section-two {
+      background: #f5f5f5;
+      height: 780px; }
+      body .section-two .section-two-left {
+        width: 100%;
+        float: none;
+        margin-left: 0%;
+        margin-top: 0px;
+        text-align: center; }
+        body .section-two .section-two-left h3 {
+          color: #333;
+          padding-top: 100px;
+          font-size: 30px;
+          margin-bottom: 40px; }
+        body .section-two .section-two-left p {
+          font-weight: 600;
+          color: #848484;
+          padding: 0 30px; }
+      body .section-two .section-two-right {
+        width: 100%;
+        float: none; }
+        body .section-two .section-two-right img {
+          width: 100%;
+          margin-top: 100px;
+          margin-left: -30px; } }
+
+/*# sourceMappingURL=style.css.map */
